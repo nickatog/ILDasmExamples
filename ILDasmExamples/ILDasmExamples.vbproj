@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0DFD8204-1204-456B-8A1F-08F70D7DF80B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ILDasmExamples.Delegates</StartupObject>
+    <StartupObject>ILDasmExamples.Lambdas</StartupObject>
     <RootNamespace>ILDasmExamples</RootNamespace>
     <AssemblyName>ILDasmExamples</AssemblyName>
     <FileAlignment>512</FileAlignment>
