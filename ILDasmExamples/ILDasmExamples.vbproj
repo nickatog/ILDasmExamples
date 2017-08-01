@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0DFD8204-1204-456B-8A1F-08F70D7DF80B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ILDasmExamples.Strings</StartupObject>
+    <StartupObject>ILDasmExamples.Delegates</StartupObject>
     <RootNamespace>ILDasmExamples</RootNamespace>
     <AssemblyName>ILDasmExamples</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -70,10 +70,11 @@
   <ItemGroup>
     <Compile Include="Async.vb" />
     <Compile Include="Boxing.vb" />
+    <Compile Include="Lambdas.vb" />
     <Compile Include="Enumeration.vb" />
     <Compile Include="Existence.vb" />
     <Compile Include="GlobalSuppressions.vb" />
-    <Compile Include="Lambdas.vb" />
+    <Compile Include="Linq.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -90,6 +91,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Strings.vb" />
+    <Compile Include="UsingBlocks.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
